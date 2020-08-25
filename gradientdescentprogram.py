@@ -26,3 +26,8 @@ def gradient_descent():
             db+=grad_b(w,b,x,y)
         w=w-eta*dw 
         b=b-eta*db
+        print("weight:",w,"bias:",b)
+        print("error:",err)
+gradient_descent()
+      
+ 
